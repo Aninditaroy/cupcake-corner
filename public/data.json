@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "name": "Chocolate cupcake with cream",
+    "details": "quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in",
+    "img": "https://media.istockphoto.com/photos/chocolate-cupcake-with-cream-tasty-cupcakes-with-ganache-muffin-picture-id1289886018?b=1&k=20&m=1289886018&s=170667a&w=0&h=jodt1f0J8goHnbEBjIfVI-KscKm5JKsVj78axd42GN0=",
+    "price": "$108.96"
+  }, {
+    "id": 2,
+    "name": "Lemon cupcake",
+    "details": "curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat",
+    "img": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+    "price": "$56.15"
+  }, {
+    "id": 3,
+    "name": "Red velvet cupcake",
+    "details": "enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac",
+    "img": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y3VwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+    "price": "$71.21"
+  }, {
+    "id": 4,
+    "name": "Vanilla cupcake with cherry on top",
+    "details": "quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in",
+    "img": "https://images.unsplash.com/photo-1599785209796-786432b228bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3VwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+    "price": "$73.29"
+  }, {
+    "id": 5,
+    "name": "Choco fudge with hazelnut cupcake",
+    "details": "sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut",
+    "img": "https://images.unsplash.com/photo-1603532648955-039310d9ed75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3VwY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+    "price": "$56.91"
+  }, {
+    "id": 6,
+    "name": "Strawberrry cupcakes",
+    "details": "orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat",
+    "img": "https://images.unsplash.com/photo-1563778084459-859099e48677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$102.26"
+  }, {
+    "id": 7,
+    "name": "Rainbow cupcake",
+    "details": "elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
+    "img": "https://images.unsplash.com/photo-1596151227289-74af7765c16e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$56.22"
+  }, {
+    "id": 8,
+    "name": "Coffee cupcake",
+    "details": "nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem",
+    "img": "https://images.unsplash.com/photo-1582760998456-d239b01c4392?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$75.27"
+  }, {
+    "id": 9,
+    "name": "Assorted flower cupcake",
+    "details": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
+    "img": "https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$196.87"
+  }, {
+    "id": 10,
+    "name": "Raspberry cupcake with white icing on top",
+    "details": "turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
+    "img": "https://images.unsplash.com/photo-1584894781998-6b11134ed209?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGN1cGNha2UlMjB0b3BwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
+    "price": "$66.48"
+  }, {
+    "id": 11,
+    "name": "Mint and chocolate cupcake",
+    "details": "id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
+    "img": "https://images.unsplash.com/photo-1587668178277-295251f900ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$115.73"
+  }, {
+    "id": 12,
+    "name": "Assorted cupcakes with flower and fruits",
+    "details": "ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
+    "img": "https://images.unsplash.com/photo-1526399232581-2ab5608b6336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=697&q=80",
+    "price": "$47.64"
+  }, {
+    "id": 13,
+    "name": "Blue cupcake",
+    "details": "eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
+    "img": "https://images.unsplash.com/photo-1555526148-0fa555bb2e78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "price": "$82.26"
+  }, {
+    "id": 14,
+    "name": "Cupcake with green and and pink icing on top",
+    "details": "molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+    "img": "https://images.unsplash.com/photo-1587536849024-daaa4a417b16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8ajVuZS1aVTJzTTB8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
+    "price": "$65.27"
+  }, {
+    "id": 15,
+    "name": "Halloween cupcake",
+    "details": "montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida",
+    "img": "https://images.pexels.com/photos/5633822/pexels-photo-5633822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "$105.61"
+  }, {
+    "id": 16,
+    "name": "Christmas cupcakes with sprinkled",
+    "details": "nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim",
+    "img": "https://images.pexels.com/photos/10319189/pexels-photo-10319189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "$71.48"
+  }, {
+    "id": 17,
+    "name": "Cupcake with buttercream",
+    "details": "id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
+    "img": "https://images.pexels.com/photos/10607306/pexels-photo-10607306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "$100.42"
+  }, {
+    "id": 18,
+    "name": "Cupcake with cream and chocolate",
+    "details": "massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis",
+    "img": "https://images.pexels.com/photos/7816718/pexels-photo-7816718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "$110.07"
+  }, {
+    "id": 19,
+    "name": "Cupcake with blueberries and  strawberries",
+    "details": "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla",
+    "img": "https://images.pexels.com/photos/7474203/pexels-photo-7474203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "$47.25"
+  }, {
+    "id": 20,
+    "name": "Party cupcake",
+    "details": "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at",
+    "img": "https://www.pexels.com/photo/chocolate-cupcake-with-white-and-red-toppings-913136/",
+    "price": "$50.37"
+  }]
