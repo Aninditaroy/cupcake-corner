@@ -11,7 +11,7 @@ const Cupcakes = () => {
     }, []);
     return (
         <Container>
-        <Row xs={1} md={2} lg={3} className="g-4">
+        <Row xs={1} md={2} lg={3} className="g-4 mt-5 mb-5">
             {
                 cupcakes.map(cupcake => <Cupcake
                     key={cupcake.id}
