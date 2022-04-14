@@ -1,0 +1,38 @@
+.carousel-container {
+    margin-bottom:100px;
+}
+.carousel-img{
+    /* width: 100%; */
+    width: 1880px;
+    height: 750px;
+    margin-left: 20px;
+}
+.carousel-heading {
+    font-size: 141px;
+    color: bisque;
+    font-family: 'Work Sans', sans-serif;
+}
+.carousel-info{
+    font-size: 26px;
+    color: black;
+    font-weight: 200;
+}
+.main-pic{
+    margin-bottom: 50px;
+    border-radius: 8px;
+    margin-top: 80px;
+    background: #FFFFFF;
+    box-shadow: 12px 13px #EDA7A5;
+}
+.main-area{
+    margin-top: 100px;
+}
+.main-heading{
+    font-size: 60px;
+    color: bisque;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-info{
+    color: black;
+    font-weight: 200;
+}

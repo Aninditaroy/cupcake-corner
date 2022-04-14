@@ -1,5 +1,4 @@
 .card {
-    width: 20rem;
     height: 100%;
     color: rgba(250, 250, 250, 0.8);
     box-shadow: 25px 25px 25px 12px rgba(0, 0, 0, 0.11);
@@ -20,5 +19,4 @@
   .card img:hover {
     transition: all 0.25s ease-in-out;
     transform: scale(1.022);
-    filter: brightness(110%);
 }
