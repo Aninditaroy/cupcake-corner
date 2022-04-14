@@ -1,7 +1,8 @@
 .catering-heading {
     color:#F7A0BD;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 65px;
+    font-family: 'Work Sans', sans-serif;
 }
 .catering {
     background-color: #FBFBFB;
@@ -10,4 +11,6 @@
 .catering-para {
     color:#272323d5;
     margin-top: 25px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
 }
