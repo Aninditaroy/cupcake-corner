@@ -14,3 +14,35 @@ body{
     color: bisque;
     font-family: 'Work Sans', sans-serif;
 }
+.footer-div-2{
+    /* margin: 0 auto; */
+}
+@media screen and (max-width:448px) {
+    .footer-bg {
+        max-width:100%;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .footer-info {
+       padding-right: 10px;
+       font-size: 18px;
+
+    }
+    .footer-area{
+        padding: 0;
+        margin: 0;
+    }
+    .footer-div{
+        margin-left: 10px;
+    }
+    .footer-div-2{
+        margin-right: 95px;
+    }
+}
+@media screen and (min-width:449px)  and (max-width:1400px){
+    .footer-div-2{
+        margin: 0 auto;
+    }
+}

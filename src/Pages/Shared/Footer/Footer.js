@@ -7,15 +7,17 @@ import twitter from '../../../images/social/twitter.png';
 import youtube from '../../../images/social/youtube.png';
 const Footer = () => {
     return (
-        <div className=''>
+        <footer className='d-flex flex-column' >
             <div className="d-flex align-items-center my-5">
                 <div style={{ height: "1px" }} className="footer-bg w-50 ms-4 me-5"></div>
                 <img src={footerimg} alt="" />
                 <div style={{ height: "1px" }} className="footer-bg w-50 ms-5 me-5"></div>
             </div>
-            <div className="footer-bg w-100 h-100 d-flex align-items-center">
-                <div className='text-white py-5 px-5'>
-                    <h3 className='footer-heading'>CUPCAKE CORNER</h3>
+            <div className='footer-area'>
+            <div className="footer-bg h-100 d-flex align-items-center">
+                <div className='text-white py-5 px-5 footer-div'>
+                    <h3 className='footer-heading'>
+                        CUPCAKE CORNER</h3>
                     About us  <br />
                     FAQs <br />
                     Terms & Conditions <br />
@@ -23,7 +25,7 @@ const Footer = () => {
                     Delivery & Collections <br />
                     Contact Us
                 </div>
-                <div className='text-white mx-auto py-5 px-5 mt-2'>
+                <div className='text-white py-5 px-5 mt-2 footer-div-2'>
                     <h3 className='footer-info'>OPENING TIMES</h3>
                     Mon - Sat: 11am - 7pm <br />
                     Sundays: 12pm - 6pm
@@ -39,6 +41,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </footer>
     );
 };
 
