@@ -4,6 +4,7 @@ import banner1 from '../../images/banner/banner1.png';
 import banner2 from '../../images/banner/banner2.png';
 import banner3 from '../../images/banner/banner3.png';
 import mainpic from '../../images/main/main2.png';
+import Footer from '../Shared/Footer/Footer';
 import './Home.css';
 const Home = () => {
     return (
@@ -60,6 +61,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </>
     );
 };

@@ -6,8 +6,10 @@ import catering4 from '../../images/catering/catering4.jpg';
 import catering5 from '../../images/catering/catering5.jpg';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Catering.css';
+import Footer from '../Shared/Footer/Footer';
 const Catering = () => {
     return (
+     <>
         <Container>
             <Row className='m-5'>
                 <Col>
@@ -55,6 +57,8 @@ const Catering = () => {
                 </Col>
             </Row>
         </Container>
+        <Footer/>
+     </>
     );
 };
 

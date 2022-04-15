@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cupcake from '../Cupcake/Cupcake';
 import { Row, Container } from 'react-bootstrap';
+import Footer from '../Shared/Footer/Footer';
 
 const Cupcakes = () => {
     const [cupcakes, setCupcakes] = useState([]);
@@ -10,6 +11,7 @@ const Cupcakes = () => {
             .then(data => setCupcakes(data));
     }, []);
     return (
+        <>
         <Container>
         <Row xs={1} md={2} lg={3} className="g-4 mt-5 mb-5">
             {
@@ -20,6 +22,8 @@ const Cupcakes = () => {
             }
         </Row>
         </Container>
+        <Footer/>
+        </>
     );
 };
 

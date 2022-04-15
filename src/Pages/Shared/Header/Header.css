@@ -1,5 +1,15 @@
 .brand-name {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 500;
     color: #bd2f6a;
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 10px 10px white;
+}
+.navbar-name {
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
 }

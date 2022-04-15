@@ -1,0 +1,16 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-bg {
+    background-color: #333333;
+}
+.footer-heading {
+    font-size: 40px;
+    color: bisque;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-info {
+    font-size: 28px;
+    color: bisque;
+    font-family: 'Work Sans', sans-serif;
+}
