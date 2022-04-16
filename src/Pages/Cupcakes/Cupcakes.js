@@ -3,6 +3,7 @@ import Cupcake from '../Cupcake/Cupcake';
 import { Row, Container, Toast } from 'react-bootstrap';
 import Footer from '../Shared/Footer/Footer';
 import logo from '../../../src/images/logo/logo.png';
+import './Cupcakes.css';
 const Cupcakes = () => {
     const [cupcakes, setCupcakes] = useState([]);
     useEffect(() => {
@@ -17,7 +18,7 @@ const Cupcakes = () => {
             <Toast show={show} onClose={toggleShow} className='cupcake-toasst' >
                 <Toast.Header>
                     <img src={logo}
-                        width="20" className="rounded me-2 " alt="" />
+                        width="20" className="rounded" alt="" />
                     <strong className="me-auto">Cupcake Corner</strong>
                     <small>11 mins ago</small>
                 </Toast.Header>
