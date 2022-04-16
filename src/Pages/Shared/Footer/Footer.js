@@ -1,5 +1,5 @@
 import React from 'react';
-import footerimg from '../../../images/footer-icon.webp';
+import footerimg from '../../../images/footer/footer-icon.webp';
 import './Footer.css';
 import facebook from '../../../images/social/facebook.png';
 import instagram from '../../../images/social/instagram.png';

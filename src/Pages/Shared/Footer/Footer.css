@@ -41,7 +41,7 @@ body{
         margin-right: 95px;
     }
 }
-@media screen and (min-width:576px)  and (max-width:1400px){
+@media screen and (min-width:577px)  and (max-width:1400px){
     .footer-div-2{
         margin: 0 auto;
     }
