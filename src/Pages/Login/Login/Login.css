@@ -16,5 +16,8 @@
       width: 350px;
       margin: 0;
     }
+    .login-label {
+        margin-left: 30px;
+    }
 }
 

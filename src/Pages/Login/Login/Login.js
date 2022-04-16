@@ -5,7 +5,9 @@ import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
 
 import './Login.css';
 import auth from '../../../firebase.init';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword} from 'react-firebase-hooks/auth';
+import Swal from 'sweetalert2';
+import Loading from '../../Shared/Loading/Loading';
 const Login = () => {
     const navigate = useNavigate();
     const emailRef = useRef('');
@@ -15,22 +17,30 @@ const Login = () => {
         user,
         loading,
         error,
-      ] = useSignInWithEmailAndPassword(auth);
-    const navigateRegister = () =>{
+    ] = useSignInWithEmailAndPassword(auth);
+    const navigateRegister = () => {
         navigate('/register');
     }
     if (user) {
-        return (
-          <div>
-            <p>Signed In User: {user.name}</p>
-          </div>
-        );
-      }
-    const handleLogin = event =>{
+        console.log(user);
+    }
+    if(loading){
+        return <Loading/>
+    }
+    const submitAlert = () => {
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'You successfully logged in',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
+    const handleLogin = event => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        signInWithEmailAndPassword(email,password);
+        signInWithEmailAndPassword(email, password);
     }
     return (
         <>
@@ -52,14 +62,13 @@ const Login = () => {
                         <label className="custom-control-label ps-2 " htmlFor="customCheck1">Remember me</label>
                     </div>
                 </div>
-                <button type="submit" className="btn btn-dark w-75 d-flex justify-content-center mx-auto mt-3">Submit</button>
+                <button type="submit" className="btn btn-dark w-75 d-flex justify-content-center mx-auto mt-3" onClick={submitAlert}>Submit</button>
                 <p className="forgot-password text-center login-label me-5 my-2">
                     Forgot password?
                 </p>
                 <p className='login-label'>New to Cupcake Corner? <Link to="/register" className='text-secondary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
-               <SocialLoginRegister/>
+                <SocialLoginRegister />
             </form>
-             
         </>
     );
 };

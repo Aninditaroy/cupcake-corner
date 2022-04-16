@@ -5,6 +5,8 @@ import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
 import './Register.css';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from './../../../firebase.init';
+import Swal from 'sweetalert2';
+import Loading from '../../Shared/Loading/Loading';
 const Register = () => {
     const navigate = useNavigate();
     const [agree,setAgree] = useState(false);
@@ -20,6 +22,18 @@ const Register = () => {
     if(user){
         console.log(user);
     }
+    if(loading){
+        return <Loading/>
+    }
+    const submitAlert = () =>{
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Succesfully,created your account!',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
     const handleRegister =  event =>{
         event.preventDefault();
         const name = event.target.name.value;
@@ -27,7 +41,11 @@ const Register = () => {
         const password = event.target.password.value;
         const confirmPassword = event.target.confirmPassword.value;
         if(password !== confirmPassword){
-            return alert('Your passwords didn\'t match');
+            return Swal.fire({
+                title: 'Error!',
+                text: 'Passwords didn\'t match',
+                icon: 'error'
+            });
         }
         createUserWithEmailAndPassword(email,password);
         navigate('/home');
@@ -57,10 +75,10 @@ const Register = () => {
                 <div className="form-group">
                     <div className="custom-control custom-checkbox">
                         <input type="checkbox" className="custom-control-input login-label" id="customCheck1" onClick={() => setAgree(!agree)} />
-                        <label className="custom-control-label ps-2 " htmlFor="customCheck1" >Accept terms & conditions</label>
+                        <label className="custom-control-label register-checkbox" htmlFor="customCheck1" >Accept terms & conditions</label>
                     </div>
                 </div>
-                <input type="submit" className="btn btn-dark w-75 d-flex justify-content-center mx-auto mt-3" disabled={!agree} value="Submit"/>
+                <input type="submit" className="btn btn-dark w-75 d-flex justify-content-center mx-auto mt-3" disabled={!agree} value="Submit" onClick={submitAlert}/>
                 <p className="forgot-password text-center login-label me-5 my-2">
                     Forgot password?
                 </p>

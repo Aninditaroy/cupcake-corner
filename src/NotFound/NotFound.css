@@ -3,22 +3,18 @@
     height: 1000px;
     background-color: #FFFFF0;
 }
-
+.notfound-img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
 @media screen and (max-width:576px) {
     .notfound {
         height: 650px;
     }
-
     .notfound-img {
         display: flex;
         justify-content: center;
     }
 }
 
-@media screen and (min-width:576px) and (max-width:1400px) {
-    .notfound-img {
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-    }
-}

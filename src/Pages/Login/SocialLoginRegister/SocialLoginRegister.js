@@ -3,7 +3,16 @@ import google from '../../../images/social/google.png';
 import github from '../../../images/social/github.png';
 import facebook from '../../../images/social/facebook.png';
 import './SocialLoginRegister.css';
+import { useSignInWithGoogle, useSignInWithGithub, useSignInWithFacebook } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 const SocialLoginRegister = () => {
+    const [signInWithGoogle, googleUser, googleLoading, googleError] = useSignInWithGoogle(auth);
+    const [signInWithGithub, githubUser, githubLoading, githubError] = useSignInWithGithub(auth);
+    const [signInWithFacebook, facebookUser, facebookLoading, facebokError] = useSignInWithFacebook(auth);
+    if(googleLoading || githubLoading || facebookLoading){
+        return <Loading/>
+    }
     return (
         <div>
               <div className='d-flex align-items-center my-2'>
@@ -12,13 +21,13 @@ const SocialLoginRegister = () => {
                     <div className='social-bg w-50'></div>
                 </div>
              <div className='d-flex justify-content-center mx-auto'>
-                <button  className='btn'>
+                <button onClick={() => signInWithGoogle()} className='btn'>
                     <img style={{ width: "30px", height: "30px" }} src={google} alt="" />
                 </button>
-                <button  className='btn'>
+                <button onClick={() => signInWithGithub()} className='btn'>
                     <img style={{ width: "30px", height: "30px" }} src={github} alt="" />
                 </button>
-                <button  className='btn'>
+                <button onClick={() => signInWithFacebook()} className='btn'>
                     <img style={{ width: "30px", height: "30px" }} src={facebook} alt="" />
                 </button>
             </div>

@@ -10,6 +10,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Login from './Pages/Login/Login/Login';
 import NotFound from './NotFound/NotFound';
 import Register from './Pages/Login/Register/Register';
+import Loading from './Pages/Shared/Loading/Loading';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/footer" element={<Footer/>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register/>}></Route>
+        <Route path="/loading" element={<Loading/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
