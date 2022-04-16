@@ -13,7 +13,7 @@
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
 }
-@media screen and (max-width:448px) {
+@media screen and (max-width:576px) {
     .brand-name {
         font-size: 25px;
         font-weight: 500;
