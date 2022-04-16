@@ -21,10 +21,14 @@ const Register = () => {
         console.log(user);
     }
     const handleRegister =  event =>{
+        event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
         const confirmPassword = event.target.confirmPassword.value;
+        if(password !== confirmPassword){
+            return alert('Your passwords didn\'t match');
+        }
         createUserWithEmailAndPassword(email,password);
         navigate('/home');
     }
