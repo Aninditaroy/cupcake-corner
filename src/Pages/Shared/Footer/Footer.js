@@ -14,33 +14,33 @@ const Footer = () => {
                 <div style={{ height: "1px" }} className="footer-bg w-50 ms-5 me-5"></div>
             </div>
             <div className='footer-area'>
-            <div className="footer-bg h-100 d-flex align-items-center">
-                <div className='text-white py-5 px-5 footer-div'>
-                    <h3 className='footer-heading'>
-                        CUPCAKE CORNER</h3>
-                    About us  <br />
-                    FAQs <br />
-                    Terms & Conditions <br />
-                    Privacy Policy <br />
-                    Delivery & Collections <br />
-                    Contact Us
-                </div>
-                <div className='text-white py-5 px-5 mt-2 footer-div-2'>
-                    <h3 className='footer-info'>OPENING TIMES</h3>
-                    Mon - Sat: 11am - 7pm <br />
-                    Sundays: 12pm - 6pm
-                    <div className='pt-5'>
-                    <h3 className='footer-info'>FOLLOW US ON</h3>
-                      <div>
-                      <img src={facebook} alt="" />
-                        <img className="ps-3" src={instagram} alt="" />
-                        <img className="ps-3" src={twitter} alt="" />
-                        <img className="ps-3" src={youtube} alt="" />
-                      </div>
+                <div className="footer-bg h-100 d-flex align-items-center">
+                    <div className='text-white py-5 px-5 footer-div'>
+                        <h3 className='footer-heading'>
+                            CUPCAKE CORNER</h3>
+                        About us  <br />
+                        FAQs <br />
+                        Terms & Conditions <br />
+                        Privacy Policy <br />
+                        Delivery & Collections <br />
+                        Contact Us
+                    </div>
+                    <div className='text-white py-5 px-5 mt-2 mx-auto footer-div-2'>
+                            <h3 className='footer-info'>OPENING TIMES</h3>
+                            Mon - Sat: 11am - 7pm <br />
+                            Sundays: 12pm - 6pm
+                            <div className='pt-5'>
+                                <h3 className='footer-info'>FOLLOW US ON</h3>
+                            <div>
+                                <img src={facebook} alt="" />
+                                <img className="ps-3" src={instagram} alt="" />
+                                <img className="ps-3" src={twitter} alt="" />
+                                <img className="ps-3" src={youtube} alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </footer>
     );
 };

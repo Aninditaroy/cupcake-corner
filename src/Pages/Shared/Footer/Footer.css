@@ -14,9 +14,6 @@ body{
     color: bisque;
     font-family: 'Work Sans', sans-serif;
 }
-.footer-div-2{
-    /* margin: 0 auto; */
-}
 @media screen and (max-width:576px) {
     .footer-bg {
         max-width:100%;
@@ -28,21 +25,12 @@ body{
     .footer-info {
        padding-right: 10px;
        font-size: 18px;
-
     }
     .footer-area{
         padding: 0;
         margin: 0;
     }
     .footer-div{
-        margin-left: 10px;
-    }
-    .footer-div-2{
-        margin-right: 95px;
-    }
-}
-@media screen and (min-width:577px)  and (max-width:1400px){
-    .footer-div-2{
-        margin: 0 auto;
+        margin-left: 50px;
     }
 }
